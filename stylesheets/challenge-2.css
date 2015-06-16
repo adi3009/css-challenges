@@ -1,0 +1,21 @@
+/* line 1, ../sass/challenge-2.scss */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #51cdfb;
+}
+
+/* line 6, ../sass/challenge-2.scss */
+h1 {
+  font-family: Times, serif;
+}
+
+/* line 10, ../sass/challenge-2.scss */
+ul {
+  text-align: center;
+  list-style: none;
+}
+/* line 14, ../sass/challenge-2.scss */
+ul li:first-letter {
+  font-weight: bold;
+  font-size: larger;
+}
