@@ -17,3 +17,9 @@ body {
 #content {
   background-color: #738f69;
 }
+
+/* line 14, ../sass/challenge-4.scss */
+#wrap {
+  margin: 0 auto;
+  width: 80%;
+}
