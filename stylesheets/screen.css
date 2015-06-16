@@ -67,28 +67,64 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 9, ../sass/challenge-4.scss */
+/* line 14, ../sass/challenge-4.scss */
 body {
   background-color: #54704a;
 }
 
-/* line 9, ../sass/challenge-4.scss */
+/* line 14, ../sass/challenge-4.scss */
 #wrap {
   background-color: #b5b67d;
 }
 
-/* line 9, ../sass/challenge-4.scss */
+/* line 14, ../sass/challenge-4.scss */
 #nav {
   background-color: #689d59;
 }
 
-/* line 9, ../sass/challenge-4.scss */
+/* line 14, ../sass/challenge-4.scss */
 #content {
   background-color: #738f69;
 }
 
 /* line 14, ../sass/challenge-4.scss */
+#footer {
+  background-color: #54704a;
+}
+
+/* line 19, ../sass/challenge-4.scss */
 #wrap {
   margin: 0 auto;
   width: 80%;
+}
+
+/* line 24, ../sass/challenge-4.scss */
+#header {
+  text-align: right;
+}
+
+/* line 28, ../sass/challenge-4.scss */
+#nav {
+  overflow: hidden;
+  *zoom: 1;
+}
+/* line 31, ../sass/challenge-4.scss */
+#nav ul {
+  display: inline;
+  text-align: center;
+}
+/* line 35, ../sass/challenge-4.scss */
+#nav ul li {
+  float: left;
+}
+
+/* line 41, ../sass/challenge-4.scss */
+#sidebar {
+  width: 15%;
+  float: right;
+}
+
+/* line 46, ../sass/challenge-4.scss */
+#content {
+  width: 85%;
 }

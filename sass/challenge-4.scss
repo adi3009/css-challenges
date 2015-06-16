@@ -1,8 +1,13 @@
+@import "compass/utilities/general/clearfix";
+
+$page-background-color: rgb(84, 112, 74);
+
 $background-colors: (
-        "body": rgb(84, 112, 74),
+        "body": $page-background-color,
         "#wrap": rgb(181, 182, 125),
         "#nav": rgb(104, 157, 89),
-        "#content": rgb(115, 143, 105)
+        "#content": rgb(115, 143, 105),
+        "#footer": $page-background-color
 );
 
 @each $selector, $color in $background-colors {
@@ -14,4 +19,30 @@ $background-colors: (
 #wrap {
   margin: 0 auto;
   width: 80%;
+}
+
+#header {
+  text-align: right;
+}
+
+#nav {
+  @include clearfix;
+
+  ul {
+    display: inline;
+    text-align: center;
+
+    li {
+      float: left;
+    }
+  }
+}
+
+#sidebar {
+  width: 15%;
+  float: right;
+}
+
+#content {
+  width: 85%;
 }
