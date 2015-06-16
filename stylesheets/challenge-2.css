@@ -1,21 +1,39 @@
-/* line 1, ../sass/challenge-2.scss */
+/* line 4, ../sass/challenge-2.scss */
 body {
   font-family: Arial, sans-serif;
-  background-color: #51cdfb;
-}
-
-/* line 6, ../sass/challenge-2.scss */
-h1 {
-  font-family: Times, serif;
+  background-color: #e2ac7f;
+  text-align: center;
 }
 
 /* line 10, ../sass/challenge-2.scss */
+h1 {
+  font-style: italic;
+  border-bottom: 4px dotted;
+}
+
+/* line 15, ../sass/challenge-2.scss */
+h1 + p {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+/* line 21, ../sass/challenge-2.scss */
+#wrap {
+  background-color: beige;
+  margin: 0 auto;
+  width: 75%;
+  border: 4px dotted;
+}
+
+/* line 28, ../sass/challenge-2.scss */
 ul {
   text-align: center;
   list-style: none;
 }
-/* line 14, ../sass/challenge-2.scss */
+/* line 32, ../sass/challenge-2.scss */
 ul li:first-letter {
   font-weight: bold;
   font-size: larger;
+  font-style: italic;
 }

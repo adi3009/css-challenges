@@ -1,10 +1,28 @@
+$dotted-border: 4px dotted;
+$content-width: 75%;
+
 body {
   font-family: Arial, sans-serif;
-  background-color: rgb(81, 205, 251);
+  background-color: rgb(226, 172, 127);
+  text-align: center;
 }
 
 h1 {
-  font-family: Times, serif;
+  font-style: italic;
+  border-bottom: $dotted-border;
+}
+
+h1 + p {
+  text-align: justify;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+#wrap {
+  background-color: rgb(245, 245, 220);
+  margin: 0 auto;
+  width: $content-width;
+  border: $dotted-border;
 }
 
 ul {
@@ -14,5 +32,6 @@ ul {
   li:first-letter {
     font-weight: bold;
     font-size: larger;
+    font-style: italic;
   }
 }
