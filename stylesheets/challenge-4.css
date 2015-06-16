@@ -24,38 +24,83 @@ body {
 }
 
 /* line 19, ../sass/challenge-4.scss */
+body {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+/* line 23, ../sass/challenge-4.scss */
+h1 {
+  font-size: 2em;
+}
+
+/* line 27, ../sass/challenge-4.scss */
 #wrap {
   margin: 0 auto;
-  width: 80%;
+  width: 75%;
 }
 
-/* line 24, ../sass/challenge-4.scss */
+/* line 32, ../sass/challenge-4.scss */
 #header {
   text-align: right;
+  padding: 1.0em 0.5em 1.0em 0;
 }
 
-/* line 28, ../sass/challenge-4.scss */
+/* line 37, ../sass/challenge-4.scss */
 #nav {
   overflow: hidden;
   *zoom: 1;
+  padding: 1.0em 0;
 }
-/* line 31, ../sass/challenge-4.scss */
+/* line 42, ../sass/challenge-4.scss */
 #nav ul {
   display: inline;
   text-align: center;
 }
-/* line 35, ../sass/challenge-4.scss */
+/* line 46, ../sass/challenge-4.scss */
 #nav ul li {
   float: left;
+  margin: 0 4.5%;
 }
 
-/* line 41, ../sass/challenge-4.scss */
+/* line 53, ../sass/challenge-4.scss */
 #sidebar {
-  width: 15%;
   float: right;
+  padding: 1.5% 0 0;
+  margin-right: 3%;
+}
+/* line 58, ../sass/challenge-4.scss */
+#sidebar h2 {
+  font-size: 1.2em;
+  margin-bottom: 10%;
+}
+/* line 63, ../sass/challenge-4.scss */
+#sidebar ul {
+  margin-left: 10%;
+  list-style: disc inside;
+  margin-right: 1.5%;
 }
 
-/* line 46, ../sass/challenge-4.scss */
+/* line 70, ../sass/challenge-4.scss */
 #content {
-  width: 85%;
+  width: 78%;
+  padding: 1% 1.5% 0;
+}
+/* line 74, ../sass/challenge-4.scss */
+#content h1 {
+  padding: 0.5em 0;
+}
+/* line 78, ../sass/challenge-4.scss */
+#content ul {
+  padding: 1.5em 0;
+  text-align: center;
+}
+/* line 83, ../sass/challenge-4.scss */
+#content li {
+  margin: 0.5em 0;
+}
+
+/* line 88, ../sass/challenge-4.scss */
+#footer {
+  text-align: center;
+  padding: 1em 0;
 }

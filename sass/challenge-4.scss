@@ -16,17 +16,28 @@ $background-colors: (
   }
 }
 
+body {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+h1 {
+  font-size: 2em;
+}
+
 #wrap {
   margin: 0 auto;
-  width: 80%;
+  width: 75%;
 }
 
 #header {
   text-align: right;
+  padding: 1.0em 0.5em 1.0em 0;
 }
 
 #nav {
   @include clearfix;
+
+  padding: 1.0em 0;
 
   ul {
     display: inline;
@@ -34,15 +45,47 @@ $background-colors: (
 
     li {
       float: left;
+      margin: 0 4.5%;
     }
   }
 }
 
 #sidebar {
-  width: 15%;
   float: right;
+  padding: 1.5% 0 0;
+  margin-right: 3%;
+
+  h2 {
+    font-size: 1.2em;
+    margin-bottom: 10%;
+  }
+
+  ul {
+    margin-left: 10%;
+    list-style: disc inside;
+    margin-right: 1.5%;
+  }
 }
 
 #content {
-  width: 85%;
+  width: 78%;
+  padding: 1% 1.5% 0;
+
+  h1 {
+    padding: 0.5em 0;
+  }
+
+  ul {
+    padding: 1.5em 0;
+    text-align: center;
+  }
+
+  li {
+    margin: 0.5em 0;
+  }
+}
+
+#footer {
+  text-align: center;
+  padding: 1em 0;
 }
