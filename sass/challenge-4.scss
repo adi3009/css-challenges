@@ -1,0 +1,12 @@
+$background-colors: (
+        "body": rgb(84, 112, 74),
+        "#wrap": rgb(181, 182, 125),
+        "#nav": rgb(104, 157, 89),
+        "#content": rgb(115, 143, 105)
+);
+
+@each $selector, $color in $background-colors {
+  #{$selector} {
+    background-color: $color;
+  }
+}
