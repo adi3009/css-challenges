@@ -66,3 +66,29 @@ a img {
 article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section, summary {
   display: block;
 }
+
+/* line 1, ../sass/challenge-5.scss */
+body {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+/* line 5, ../sass/challenge-5.scss */
+#header {
+  position: relative;
+}
+/* line 8, ../sass/challenge-5.scss */
+#header blockquote {
+  position: absolute;
+  margin-left: 320px;
+  top: 50px;
+}
+
+/* line 16, ../sass/challenge-5.scss */
+#logo h1 {
+  display: none;
+}
+
+/* line 21, ../sass/challenge-5.scss */
+#content-side {
+  float: left;
+}

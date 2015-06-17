@@ -1,0 +1,23 @@
+body {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+#header {
+  position: relative;
+
+  blockquote {
+    position: absolute;
+    margin-left: 320px;
+    top: 50px;
+  }
+}
+
+#logo {
+  h1 {
+    display: none;
+  }
+}
+
+#content-side {
+  float: left;
+}
