@@ -67,28 +67,75 @@ article, aside, details, figcaption, figure, footer, header, hgroup, main, menu,
   display: block;
 }
 
-/* line 1, ../sass/challenge-5.scss */
+/* line 2, ../sass/challenge-5.scss */
 body {
   font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  padding-left: 30px;
 }
 
-/* line 5, ../sass/challenge-5.scss */
+/* line 7, ../sass/challenge-5.scss */
+p {
+  margin: 10px 0;
+}
+
+/* line 11, ../sass/challenge-5.scss */
+h2 {
+  font-weight: bold;
+}
+
+/* line 15, ../sass/challenge-5.scss */
+small {
+  margin: 10px 0;
+  font-size: smaller;
+}
+
+/* line 20, ../sass/challenge-5.scss */
+strong {
+  font-weight: bold;
+}
+
+/* line 24, ../sass/challenge-5.scss */
 #header {
+  margin-top: 50px;
   position: relative;
 }
-/* line 8, ../sass/challenge-5.scss */
+/* line 28, ../sass/challenge-5.scss */
 #header blockquote {
   position: absolute;
   margin-left: 320px;
   top: 50px;
+  font-style: italic;
+  font-size: 25px;
 }
 
-/* line 16, ../sass/challenge-5.scss */
+/* line 38, ../sass/challenge-5.scss */
 #logo h1 {
   display: none;
 }
 
-/* line 21, ../sass/challenge-5.scss */
+/* line 43, ../sass/challenge-5.scss */
+#content {
+  margin-top: 30px;
+}
+/* line 46, ../sass/challenge-5.scss */
+#content a {
+  color: #b0a087;
+  text-decoration: none;
+}
+/* line 51, ../sass/challenge-5.scss */
+#content dd {
+  margin-left: 15px;
+}
+
+/* line 56, ../sass/challenge-5.scss */
 #content-side {
   float: left;
+  width: 20%;
+}
+
+/* line 61, ../sass/challenge-5.scss */
+#content-main {
+  float: left;
+  width: 40%;
+  margin-left: 50px;
 }
