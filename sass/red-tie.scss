@@ -1,0 +1,156 @@
+@import "compass/utilities/general/clearfix";
+
+$heading-font-base: 40px;
+$site-color: rgb(204, 0, 0);
+$links-color: rgb(153, 153, 153);
+$nav-background: rgb(240, 240, 240);
+
+@each $heading in headings(1, 4) {
+  $i: 1 !default;
+  #{$heading} {
+    font-size: $heading-font-base - (6 * $i);
+    font-weight: bold;
+  }
+  $i: $i + 1;
+}
+
+body {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+  font-size: small;
+}
+
+p {
+  margin: 10px 0;
+}
+
+.container {
+  width: 980px;
+  margin: 0 auto;
+}
+
+.global-header {
+  @include clearfix;
+  background-color: $nav-background;
+}
+
+.logo {
+  //background-color: $site-color;
+  float: left;
+  background-image: url('../images/tie_logo.gif');
+  width: 274px;
+  height: 213px;
+}
+
+.logo__heading {
+  color: white;
+  margin-top: 75px;
+  margin-left: 70px;
+}
+
+.address {
+  float: left;
+  margin-top: 15px;
+}
+
+.global-nav {
+  float: right;
+  margin-top: 15px;
+  margin-right: 8px;
+
+  li {
+    margin-right: 5px;
+  }
+}
+
+.address, .global-nav {
+  background-color: $nav-background;
+}
+
+.menu, .submenu {
+  float: right;
+  width: 100%;
+}
+
+.menu {
+  color: white;
+  background-image: url('../images/bg_menu.gif');
+  clear: right;
+  margin-top: 14px;
+  height: 33px;
+
+  li {
+    margin-top: 8px;
+    margin-right: 5px;
+  }
+
+  li:first-child {
+    margin-left: 345px;
+  }
+}
+
+.submenu {
+  //clear: right;
+  //background-color: white;
+  background: white url('../images/bg_submenu.gif') repeat-x;
+
+  margin-top: -1px;
+  //height: 12px;
+  padding-top: 10px;
+
+  li {
+    margin-right: 5px;
+  }
+
+  li:first-child {
+    margin-left: 285px;
+  }
+}
+
+.global-nav, .menu, .submenu {
+  li {
+    float: left;
+  }
+}
+
+.content-sidebar {
+  background-color: $nav-background + 7;
+  border: 1px solid black;
+  float: left;
+  clear: left;
+  padding: 15px 10px;
+  width: 250px;
+}
+
+.content-main {
+  float: right;
+  margin-top: -30px;
+  width: 680px;
+}
+
+.content-main__heading {
+  text-align: center;
+}
+
+.content-sidebar__title, .content-sidebar__news-item__date, .content-main__heading {
+  color: $site-color;
+}
+
+.menu, .content-main__material__intro {
+  font-weight: bold;
+}
+
+.global-nav, .submenu, .content-sidebar__news-item__link, .menu_location_footer {
+  color: $links-color;
+  font-weight: bold;
+  font-size: 11px;
+}
+
+.menu_location_footer {
+  float: left;
+  clear: left;
+  background: $nav-background;
+
+  li:first-child {
+    margin-left: 215px;
+  }
+}
