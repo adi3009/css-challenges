@@ -90,3 +90,12 @@ a {
   height: 50px;
   border-radius: 10px;
 }
+
+/* line 86, ../sass/internet-music.scss */
+.promotion {
+  font-size: small;
+  color: #878080;
+  background-color: #f4f4f4;
+  padding: 10px 20px 20px 10px;
+  border-bottom: 1px solid #cccccc;
+}
