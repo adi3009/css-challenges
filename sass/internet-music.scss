@@ -136,6 +136,7 @@ p {
   padding: 10px;
   border-radius: 10px;
   margin-bottom: 10px;
+  min-height: 185px;
 
   a {
     color: rgb(255, 252, 209);
@@ -149,6 +150,13 @@ p {
 
   &__name {
     color: rgb(255, 252, 209);
+  }
+
+  &__image {
+    border: 1px solid white;
+    margin: 10px;
+    padding: 5px;
+    float: left;
   }
 }
 
