@@ -128,6 +128,11 @@ p {
   a {
     color: rgb(255, 252, 209);
   }
+
+  &__image {
+    float: left;
+    padding: 10px 10px 0 10px;
+  }
 }
 
 .featured-artist{

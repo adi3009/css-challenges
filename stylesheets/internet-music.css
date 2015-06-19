@@ -142,8 +142,13 @@ p {
 .article a {
   color: #fffcd1;
 }
+/* line 132, ../sass/internet-music.scss */
+.article__image {
+  float: left;
+  padding: 10px 10px 0 10px;
+}
 
-/* line 133, ../sass/internet-music.scss */
+/* line 138, ../sass/internet-music.scss */
 .featured-artist {
   background-color: #6e6e6e;
   color: white;
@@ -152,21 +157,21 @@ p {
   margin-bottom: 10px;
   min-height: 185px;
 }
-/* line 141, ../sass/internet-music.scss */
+/* line 146, ../sass/internet-music.scss */
 .featured-artist a {
   color: #fffcd1;
 }
-/* line 145, ../sass/internet-music.scss */
+/* line 150, ../sass/internet-music.scss */
 .featured-artist__label {
   font-weight: bold;
   font-size: large;
   margin-left: 10px;
 }
-/* line 151, ../sass/internet-music.scss */
+/* line 156, ../sass/internet-music.scss */
 .featured-artist__name {
   color: #fffcd1;
 }
-/* line 155, ../sass/internet-music.scss */
+/* line 160, ../sass/internet-music.scss */
 .featured-artist__image {
   border: 1px solid white;
   margin: 10px;
@@ -174,7 +179,7 @@ p {
   float: left;
 }
 
-/* line 163, ../sass/internet-music.scss */
+/* line 168, ../sass/internet-music.scss */
 .footer {
   font-size: small;
   text-align: center;
@@ -182,7 +187,7 @@ p {
   padding-top: 10px;
   border-top: 1px dotted;
 }
-/* line 170, ../sass/internet-music.scss */
+/* line 175, ../sass/internet-music.scss */
 .footer a {
   color: #c3593c;
 }
