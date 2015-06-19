@@ -96,8 +96,10 @@ p {
 }
 
 .content {
+  @include clearfix;
+
   font-size: small;
-  margin-top: 10px;
+  margin: 10px 0;
 
   &-main {
     float: left;
@@ -113,6 +115,7 @@ p {
 
 .sidebar {
   float: right;
+  clear: right;
   width: 300px;
 }
 
@@ -146,5 +149,17 @@ p {
 
   &__name {
     color: rgb(255, 252, 209);
+  }
+}
+
+.footer {
+  font-size: small;
+  text-align: center;
+  color: rgb(135, 128, 128);
+  padding-top: 10px;
+  border-top: 1px dotted;
+
+  a {
+    color: rgb(195, 89, 60);
   }
 }
