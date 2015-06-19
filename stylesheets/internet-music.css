@@ -1,0 +1,92 @@
+/* line 3, ../sass/internet-music.scss */
+body {
+  font-family: Lato, 'Helvetica Neue', Arial, Helvetica, sans-serif;
+}
+
+/* line 7, ../sass/internet-music.scss */
+.container {
+  width: 980px;
+  margin: 20px auto;
+}
+
+/* line 12, ../sass/internet-music.scss */
+h1 {
+  font-weight: bold;
+  font-size: 30px;
+}
+
+/* line 17, ../sass/internet-music.scss */
+a {
+  color: #4a8eb8;
+}
+
+/* line 21, ../sass/internet-music.scss */
+.header {
+  overflow: hidden;
+  *zoom: 1;
+  padding: 0 10px;
+}
+
+/* line 27, ../sass/internet-music.scss */
+.logo {
+  float: left;
+}
+/* line 30, ../sass/internet-music.scss */
+.logo__site-name span {
+  color: #c3593c;
+}
+/* line 34, ../sass/internet-music.scss */
+.logo__description {
+  font-size: small;
+  color: #878080;
+  text-align: center;
+}
+
+/* line 41, ../sass/internet-music.scss */
+.nav {
+  float: right;
+  clear: right;
+  width: 700px;
+}
+
+/* line 47, ../sass/internet-music.scss */
+.login {
+  font-size: small;
+  float: right;
+  border-bottom: 1px dotted;
+  padding: 0 0 10px 280px;
+}
+/* line 53, ../sass/internet-music.scss */
+.login__message {
+  font-weight: bold;
+}
+
+/* line 58, ../sass/internet-music.scss */
+.categories {
+  float: right;
+  margin: 10px 0 15px;
+  font-size: small;
+}
+/* line 63, ../sass/internet-music.scss */
+.categories__label {
+  color: #878080;
+}
+/* line 67, ../sass/internet-music.scss */
+.categories__category {
+  font-weight: bold;
+  margin-left: 30px;
+  padding-bottom: 9px;
+}
+/* line 72, ../sass/internet-music.scss */
+.categories__category_state_active {
+  color: #c3593c;
+  text-decoration: none;
+  background: url("../images/bar.gif") no-repeat bottom;
+}
+
+/* line 80, ../sass/internet-music.scss */
+.search-bar {
+  background-color: #464548;
+  height: 50px;
+  border-radius: 10px;
+}
