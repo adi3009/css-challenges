@@ -7,6 +7,7 @@ body {
 .container {
   width: 980px;
   margin: 20px auto;
+  line-height: 18px;
 }
 
 h1 {
@@ -16,6 +17,10 @@ h1 {
 
 a {
   color: rgb(74, 142, 184);
+}
+
+p {
+  padding: 10px;
 }
 
 .header {
@@ -87,6 +92,59 @@ a {
   font-size: small;
   color: rgb(135, 128, 128);
   background-color: rgb(244, 244, 244);
-  padding: 10px 20px 20px 10px;
   border-bottom: 1px solid rgb(204, 204, 204);
+}
+
+.content {
+  font-size: small;
+  margin-top: 10px;
+
+  &-main {
+    float: left;
+    width: 600px;
+
+    &__heading {
+      font-weight: bold;
+      font-size: large;
+      margin-left: 10px;
+    }
+  }
+}
+
+.sidebar {
+  float: right;
+  width: 300px;
+}
+
+.article {
+  background-color: rgb(198, 93, 53);
+  border-radius: 10px;
+  margin-bottom: 10px;
+  color: rgb(254, 225, 213);
+
+  a {
+    color: rgb(255, 252, 209);
+  }
+}
+
+.featured-artist{
+  background-color: rgb(110, 110, 110);
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  margin-bottom: 10px;
+
+  a {
+    color: rgb(255, 252, 209);
+  }
+
+  &__label {
+    font-weight: bold;
+    font-size: large;
+    margin-left: 10px;
+  }
+
+  &__name {
+    color: rgb(255, 252, 209);
+  }
 }
